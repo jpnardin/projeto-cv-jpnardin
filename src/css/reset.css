@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    /* margin serve para ajustar as margens da página. 0 tira as margens. */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}

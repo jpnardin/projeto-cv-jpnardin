@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+main::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 45%) no-repeat;
+}
+
+main .personagem {
+    display: none;
+    height: 100%;
+}
+
+main .personagem.selecionado{
+    display: block;
+}
+
+main .personagem .imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.conteudo {
+    position: absolute;
+    top: -50px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 800px;
+    z-index: 1;
+}
+
+.conteudo .nome-personagem {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Secular One";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.conteudo .descricao {
+    color: #ffffff;
+    font-family: "Rubik";
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.conteudo .nome-personagem.eng {
+    color: #403f3f;
+    font-size: 50px;
+    font-family: "Secular One";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.conteudo .descricao.preto {
+    color: #4d4949;
+    font-family: "Rubik";
+    font-size: 22px;
+    line-height: 24px;
+}
+
+
+.botoes {
+    position: fixed;
+    bottom: 20px;
+    height:200px;
+    width: 100px;
+    display: flex;
+    flex-direction:row;
+    min-height: 20vh;
+    align-items: center;
+    margin-left: 100px;
+    gap: 20px;
+    z-index: 3;
+}
+
+.botoes .botao {
+    cursor: pointer;
+    background: none;
+    border: none;  
+}
+
+.botoes .botao.selecionado {
+    transform: scale(1.2);
+    
+}
+
+.icone-software {
+    position: fixed;
+    top: 9%;
+    height:100px;
+    width: 100px;
+    display: flex;
+    right: 50px;
+    flex-direction:column;
+    min-height: 20vh;
+    align-items: center;
+    margin-left: 350px;
+    gap: 0px;
+    z-index: 3;
+      
+}
+
+.icone-link {
+    position: fixed;
+    top: 9%;
+    height:10px;
+    width: 100px;
+    display: flex;
+    right: 50px;
+    flex-direction:column;
+    min-height: 20vh;
+    align-items: center;
+    margin-left: 350px;
+    gap: 0px;
+    z-index: 3;
+    transform: scale(0.6);
+      
+}
+
+.icone-software .icone {
+    background-color: none;
+    background: none;
+    border: none;
+    transform: scale(0.7);
+}
+
+.icone-link .icone {
+    background-color: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
