@@ -52,7 +52,7 @@ main .personagem .imagem {
 .conteudo .descricao {
     color: #ffffff;
     font-family: "Rubik";
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
 }
 
@@ -61,12 +61,12 @@ main .personagem .imagem {
     font-size: 50px;
     font-family: "Secular One";
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .conteudo .descricao.preto {
     color: #4d4949;
     font-family: "Rubik";
-    font-size: 22px;
+    font-size: 18px;
     line-height: 24px;
 }
 

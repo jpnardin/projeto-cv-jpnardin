@@ -36,10 +36,13 @@
     z-index: 1;
     
 }
+.personagem.preto .icone-software {
+    top: 0;
+}
 
 .icone-software {
     position: flex;
-    top: 20%;
+    top: 18%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -68,7 +71,7 @@
 
 
 .botoes .botao img {
-    max-width: 400px;
+    max-width: 100%;
     align-items: center;
     justify-content: center;
     z-index: 1;
@@ -78,13 +81,31 @@
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 560px) {
     main .personagem .imagem{
         height: auto;
     }
 
-    .conteudo .logo {
-        width: 170px;
-        height: 75px;
+    .botoes .botao img {
+        max-width: 120%;
     }
+
+.icone-link {
+        left: 100px;
+    }
+.personagem.ads .conteudo .descricao {
+    color: #ffffff;
+    font-family: "Rubik";
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.personagem.ads .conteudo .nome-personagem {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Secular One";
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
 }
