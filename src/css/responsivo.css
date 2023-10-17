@@ -89,9 +89,14 @@
     .botoes .botao img {
         max-width: 120%;
     }
+.botoes {
+        bottom: -30px;
+}
+
 
 .icone-link {
         left: 100px;
+        top: -10px;
     }
 .personagem.ads .conteudo .descricao {
     color: #ffffff;
@@ -102,7 +107,7 @@
 
 .personagem.ads .conteudo .nome-personagem {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Secular One";
     font-weight: 400;
     margin-bottom: 20px;
